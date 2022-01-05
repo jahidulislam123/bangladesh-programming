@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: green;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.photo img {
+    width: 350px;
+}
+
+.detail-btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    border: none;
+    background-image: linear-gradient(45deg, green, red, green);
+}
+
+.detail-btn:hover {
+    background-color: blue;
+    color: chartreuse;
+    cursor: pointer;
+}
+
+.second-section {
+    text-align: center;
+}
+
+.dhaka {
+    width: 300px;
+
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    margin-left: 8%;
+    padding-bottom: 10px;
+
+
+}
+
+.div-amage img {
+    width: 100%;
+}
+
+.all-division {
+    display: flex;
+
+    margin-bottom: 5%;
+
+}
+
+.btn-2 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 8px;
+}
